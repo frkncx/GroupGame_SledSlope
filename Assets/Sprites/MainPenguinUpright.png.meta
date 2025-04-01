@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MainPenguinUpright_0: 4313626487036762509
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

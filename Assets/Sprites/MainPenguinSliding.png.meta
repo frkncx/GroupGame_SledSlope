@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MainPenguinSliding_0: -238596993461475478
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

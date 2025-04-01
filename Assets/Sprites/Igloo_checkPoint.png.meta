@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Igloo_checkPoint_0: 1940243709299643608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

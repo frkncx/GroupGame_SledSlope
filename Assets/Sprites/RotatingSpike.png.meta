@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RotatingSpike_0: 4575431023160265236
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
