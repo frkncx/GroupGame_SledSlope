@@ -10,7 +10,6 @@ public class UIController : MonoBehaviour
     public TMP_Text starsNumberText;
 
     private int secondsCounter = 0;
-    public int starsCounter = 0;
 
     void Start()
     {
@@ -19,7 +18,7 @@ public class UIController : MonoBehaviour
 
     private void Update()
     {
-        starsNumberText.text = starsCounter.ToString();
+        starsNumberText.text = GameManager.Instance.StarsCounter.ToString();
     }
 
     private IEnumerator CountUp()
