@@ -8,6 +8,7 @@ public class PlatformMover : MonoBehaviour
 
     void Update()
     {
+        // TODO: Create a smooth Movement for the platform, and make it move by player pressing right arrow key, D, or W
         transform.Translate(Vector2.left * speed * Time.deltaTime);
 
         if (transform.position.x < -50f)
