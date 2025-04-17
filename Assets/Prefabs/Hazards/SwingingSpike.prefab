@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 1399788106164031208}
   - component: {fileID: 1923741746440381680}
   - component: {fileID: 1873329253876430514}
+  - component: {fileID: 2905826054004656933}
   m_Layer: 0
   m_Name: SwingingSpikeBody
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -169,6 +170,33 @@ PolygonCollider2D:
       - {x: 0.65000004, y: -2.95}
       - {x: 1.45, y: -2.575}
   m_UseDelaunayMesh: 0
+--- !u!50 &2905826054004656933
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8397600211816165475}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &9091840404868740987
 GameObject:
   m_ObjectHideFlags: 0

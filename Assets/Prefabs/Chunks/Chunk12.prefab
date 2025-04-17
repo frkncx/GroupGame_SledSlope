@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 2377244413819464206}
   - component: {fileID: 1144097457676786033}
   - component: {fileID: 6299696577389531980}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Chunk12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2208,8 +2208,9 @@ TilemapCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6876049720164978958}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 96b6699fd53725b4493a38d3a2878f63, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2231,7 +2232,8 @@ TilemapCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
@@ -2248,6 +2250,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c855a85422c43e419d3de1985159385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceleration: 5
+  deceleration: 5
+  maxSpeed: 10
+  breakDeceleration: 10
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  checkRadius: 1
+  checkPosition: {fileID: 0}
 --- !u!1 &8128964189543433671
 GameObject:
   m_ObjectHideFlags: 0
@@ -2417,7 +2428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2769886885332674663, guid: dc09d67d9cf624745910be68209a20d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.02
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 2769886885332674663, guid: dc09d67d9cf624745910be68209a20d7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2479,7 +2490,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2769886885332674663, guid: dc09d67d9cf624745910be68209a20d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.0567627
+      value: -3.46
       objectReference: {fileID: 0}
     - target: {fileID: 2769886885332674663, guid: dc09d67d9cf624745910be68209a20d7, type: 3}
       propertyPath: m_LocalPosition.y
