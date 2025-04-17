@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8502574073130761353}
   - component: {fileID: 2694816886531976039}
   - component: {fileID: -2895715003224928889}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Chunk18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1547,8 +1547,9 @@ TilemapCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12685532879233610}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 96b6699fd53725b4493a38d3a2878f63, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1570,7 +1571,8 @@ TilemapCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
@@ -1587,6 +1589,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c855a85422c43e419d3de1985159385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceleration: 5
+  deceleration: 5
+  maxSpeed: 10
+  breakDeceleration: 10
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  checkRadius: 1
+  checkPosition: {fileID: 0}
 --- !u!1 &3079337719979724547
 GameObject:
   m_ObjectHideFlags: 0
